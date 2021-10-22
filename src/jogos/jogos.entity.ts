@@ -11,7 +11,6 @@ import {
 import { User } from 'src/users/user.entity';
 
 @Entity()
-@Unique(['email'])
 export class Jogo extends BaseEntity {
   @PrimaryGeneratedColumn('uuid')
   id: string;
